@@ -20,6 +20,7 @@
             <li><a href="#project">Project</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <img src="img/walter-white.png" alt="darkmode" style="width: 50px; height: 50px; cursor: pointer; float:right; margin:20px;" onclick="darkMode()">
     </nav>
 
     <div id="home" class="home">
@@ -48,7 +49,7 @@
             <li><img src="img/html.png" alt="html"></li>
             <li><img src="img/css.png" alt="css"></li>
             <li><img src="img/javascript.png" alt="js"></li>
-            <li><img style="height: 100px;" src="img//php.png" alt="php"></li>
+            <li><img style="height: 100px;" src="img/php.png" alt="php"></li>
         </ul>
     </div>
 
@@ -65,9 +66,26 @@
         <h2>Contact Me</h2>
         <p>Email: afif.firman19@gmail.com</p>
         <p>Phone: 081349999999</p>
+        <ul class="sosmed">
+            <li><a href="https://www.instagram.com/afif_firman73/#" target="_blank"><img style="height:25px; width:25px;" src="img/ig.png" alt="instagram logo"></a></li>
+            <li><a href="https://www.linkedin.com/in/afif-firman-07b8ba34b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfyjml%2FX5QIWPAwl8RXouOA%3D%3D" target="_blank"><img style="height:25px; width:25px;" src="img/in.png" alt="linkedin logo"></a></li>
+            <li><a href="https://github.com/Aaafm73" target="_blank"><img style="height:25px; width:25px;" src="img/github.png" alt="github logo"></a></li>
+        </ul>
+        <ul class="sosmed-rubah">
+            <li><a href="https://www.instagram.com/afif_firman73/#" target="_blank"><img style="height:25px; width:25px" src="img/white-ig.png" alt="ig"></a></li>
+            <li><a href="https://www.linkedin.com/in/afif-firman-07b8ba34b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfyjml%2FX5QIWPAwl8RXouOA%3D%3D" target="_blank"><img style="height:25px; width:25px" src="img/white-in.png" alt="in"></a></li>
+            <li><a href="https://github.com/Aaafm73" target="_blank"><img style="height:25px; width:25px" src="img/white-github.png" alt="github"></a></li>
+        </ul>
     </div>
 
     <footer class="footer">
         <p>&copy; 2025 Afif Firman</p>
+    </footer>
+<script>
+    function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
 </body>
 </html>

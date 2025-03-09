@@ -1,6 +1,25 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
+}
+
+.dark-mode {
+    background-color: #02001a;
+    color: #fff;
+
+    .skill {
+        background-color: rgb(175, 180, 200);
+        color: #111;
+    }
+
+    .sosmed {
+        display: none;
+    }
+
+    .sosmed-rubah {
+        display: block;
+    }
 }
 
 .header {
@@ -15,7 +34,7 @@ body {
     display: block;
     background-color: #333333;
     color: #fff;
-    padding: 10px;
+    padding: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -51,7 +70,6 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #1374a8; 
     padding: 55px;  
 }
 
@@ -70,12 +88,15 @@ body {
         width: 300px;
         height: 300px;
     }
+
+    .navbar {
+        padding: 0;
+    }
     
 }
 
 .profile {
     display: block;
-    background-color: #444;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -84,7 +105,6 @@ body {
 
 .profile-content {
     display:inline-block;
-    background-color: #fff;
     align-items: center;
     justify-content: center;
     border: #1374a8 5px solid;
@@ -96,7 +116,6 @@ body {
 
 .skill {
     display: block;
-    background-color: #00a6ff;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -119,7 +138,6 @@ body {
 
 .project {
     display: block;
-    background-color: #fff;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -128,11 +146,30 @@ body {
 
 .contact {
     display: block;
-    background-color: #00a6ff;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 45px;
+}
+
+.contact ul {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: left;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+.contact li {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.sosmed-rubah {
+    display: none;
 }
 
 .footer {
